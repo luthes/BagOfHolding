@@ -1,0 +1,6 @@
+version=1
+id=2774033835
+title=Bag of Holding
+description=This is a simple mod that we use to ease the pain of a soft server reset. It's just a high capacity bag.
+tags=Build 41;Clothing/Armor;Items;Misc;Multiplayer
+visibility=public

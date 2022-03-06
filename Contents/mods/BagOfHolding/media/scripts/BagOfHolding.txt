@@ -1,0 +1,23 @@
+module Base
+{
+item BagOfHolding
+    {
+        Type                  = Container,
+        DisplayName           = Bag of Holding,
+        ClothingItem          = Bag_BagOfHolding,
+        CanBeEquipped         = Back,
+        WeightReduction       = 100,
+        Weight                = 0.5,
+        Capacity              = 400,
+        Icon                  = AliceBag,
+        OpenSound             = OpenBag,
+        CloseSound            = CloseBag,
+        PutInSound            = PutItemInBag,
+        BloodLocation         = Bag,
+        RunSpeedModifier      = 1.2,
+        CanHaveHoles          = false,
+        AttachmentReplacement = Bag,
+        ReplaceInSecondHand   = Bag_ALICEpack_LHand holdingbagleft,
+        ReplaceInPrimaryHand  = Bag_ALICEpack_RHand holdingbagright,
+    }
+}
